@@ -1,0 +1,1440 @@
+fileFormatVersion: 2
+guid: 19ae01e33abb62948aadc4c3611a9d44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -356095233430891416
+    second: Idle
+  - first:
+      213: -3971730901332053347
+    second: walk 2
+  - first:
+      213: 5000311654783822510
+    second: walk 3
+  - first:
+      213: 5719508672020446159
+    second: walk 4
+  - first:
+      213: 890709380571916279
+    second: crouch
+  - first:
+      213: 440326879733235858
+    second: stairs up
+  - first:
+      213: 6948145101743914069
+    second: stairs up 2
+  - first:
+      213: 6677626089234835163
+    second: stairs down
+  - first:
+      213: -8269026497350404158
+    second: stairs down 2
+  - first:
+      213: 4319022824146852357
+    second: Hit
+  - first:
+      213: -4809541096234899999
+    second: Death
+  - first:
+      213: -1113576223625739807
+    second: Death 2
+  - first:
+      213: 2403196960030880575
+    second: Back
+  - first:
+      213: 9149023739663801586
+    second: Belmont anim_13
+  - first:
+      213: 8264443464801770761
+    second: Belmont anim_14
+  - first:
+      213: 6909290971682409079
+    second: Belmont anim_15
+  - first:
+      213: 6371181658583783079
+    second: Belmont anim_16
+  - first:
+      213: 3532877787590226949
+    second: Belmont anim_17
+  - first:
+      213: -3618012056849905308
+    second: Belmont anim_18
+  - first:
+      213: 4506327241074871473
+    second: Belmont anim_19
+  - first:
+      213: 7423186531055982603
+    second: Belmont anim_20
+  - first:
+      213: 6170940968874091778
+    second: Belmont anim_21
+  - first:
+      213: 7228190031114420886
+    second: Belmont anim_22
+  - first:
+      213: -2834693645337949951
+    second: Belmont anim_23
+  - first:
+      213: 6170686099977293903
+    second: Belmont anim_24
+  - first:
+      213: -3353403410209148455
+    second: Belmont anim_25
+  - first:
+      213: -6587407348335942845
+    second: Belmont anim_26
+  - first:
+      213: 5355090285823989161
+    second: Belmont anim_27
+  - first:
+      213: 2232859322173394285
+    second: Belmont anim_28
+  - first:
+      213: -9193500411546015206
+    second: Belmont anim_29
+  - first:
+      213: -8974801224211757717
+    second: Belmont anim_30
+  - first:
+      213: -7555292735668609064
+    second: Belmont anim_31
+  - first:
+      213: 605881126007060962
+    second: Belmont anim_32
+  - first:
+      213: 727750471308414886
+    second: Belmont anim_33
+  - first:
+      213: 6627192985896596067
+    second: Belmont anim_34
+  - first:
+      213: -8761941573820771172
+    second: Belmont anim_35
+  - first:
+      213: 6448495130301618845
+    second: Belmont anim_36
+  - first:
+      213: 4063427268367221412
+    second: whip
+  - first:
+      213: -4824692964960606598
+    second: whip 1
+  - first:
+      213: 501151357212305757
+    second: whip 3
+  - first:
+      213: 8616794908455185588
+    second: whip 4
+  - first:
+      213: -297452640998377887
+    second: whip 5
+  - first:
+      213: -1890966906917245495
+    second: crouch whip
+  - first:
+      213: 2809679183150882488
+    second: crouch whip 2
+  - first:
+      213: -6971857008851099868
+    second: crouch whip 3
+  - first:
+      213: 2175927291918042779
+    second: crouch whip 4
+  - first:
+      213: -993165853628050911
+    second: crouch whip 5
+  - first:
+      213: -6510505329708192425
+    second: stairs whip
+  - first:
+      213: -8697546894204508230
+    second: stairs whip 2
+  - first:
+      213: -2588906114989699737
+    second: stairs whip 3
+  - first:
+      213: -7018217070914154577
+    second: stairs whip 4
+  - first:
+      213: 969434895251882930
+    second: stairs down whip
+  - first:
+      213: 502158843005560148
+    second: stairs down whip 2
+  - first:
+      213: 3154315572613403103
+    second: stairs down whip 3
+  - first:
+      213: 95218329347376141
+    second: stairs down whip 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 117
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86454299545ee0bf0800000000000000
+      internalID: -356095233430891416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk 2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 117
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9239a2d9c391e8c0800000000000000
+      internalID: -3971730901332053347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk 3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 116
+        width: 12
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa2ad05fca46540800000000000000
+      internalID: 5000311654783822510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk 4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 116
+        width: 15
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb7b8d75d6cf5f40800000000000000
+      internalID: 5719508672020446159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 123
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7e813667f6c5c00800000000000000
+      internalID: 890709380571916279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs up
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 115
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2904e83d6fa5c1600800000000000000
+      internalID: 440326879733235858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs up 2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 116
+        width: 12
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cf05d3825cc6060800000000000000
+      internalID: 6948145101743914069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs down
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 115
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd629bf6c81bbac50800000000000000
+      internalID: 6677626089234835163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs down 2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 12
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7f22b36348e3d80800000000000000
+      internalID: -8269026497350404158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 115
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad31a106040fb30800000000000000
+      internalID: 4319022824146852357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 123
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5a642ead3114db0800000000000000
+      internalID: -4809541096234899999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 130
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e187781358cb80f0800000000000000
+      internalID: -1113576223625739807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 115
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3370f707eed95120800000000000000
+      internalID: 2403196960030880575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 60
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcd64c1e9cd7fe70800000000000000
+      internalID: 9149023739663801586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 60
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ddec95b8331b270800000000000000
+      internalID: 8264443464801770761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 60
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a81f0288bb2ef50800000000000000
+      internalID: 6909290971682409079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 60
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6de5766fbfa6850800000000000000
+      internalID: 6371181658583783079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 60
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504fe2c31ad470130800000000000000
+      internalID: 3532877787590226949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469816e043d3acdc0800000000000000
+      internalID: -3618012056849905308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 66
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc0fed00c0b98e30800000000000000
+      internalID: 4506327241074871473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 66
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b085e0df1d4740760800000000000000
+      internalID: 7423186531055982603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 66
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20525abbd1693a550800000000000000
+      internalID: 6170940968874091778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 66
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69248956980bf4460800000000000000
+      internalID: 7228190031114420886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_23
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 66
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109039ef52529a8d0800000000000000
+      internalID: -2834693645337949951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 66
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f405691705ea2a550800000000000000
+      internalID: 6170686099977293903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 59
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d176e19d515671d0800000000000000
+      internalID: -3353403410209148455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 59
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34363a31be3d494a0800000000000000
+      internalID: -6587407348335942845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 59
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a51fa21e3a115a40800000000000000
+      internalID: 5355090285823989161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 59
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d809b29b5bcfe10800000000000000
+      internalID: 2232859322173394285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_29
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 59
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a646fb5102a6080800000000000000
+      internalID: -9193500411546015206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_30
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 59
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b650e1d46d9137380800000000000000
+      internalID: -8974801224211757717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_31
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 59
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df126c5945362790800000000000000
+      internalID: -7555292735668609064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_32
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 59
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9b3cb8ca5886800800000000000000
+      internalID: 605881126007060962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_33
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 59
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af0677a23d791a00800000000000000
+      internalID: 727750471308414886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_34
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 59
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b35688e488fb50800000000000000
+      internalID: 6627192985896596067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_35
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 59
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c949fa5bf84576680800000000000000
+      internalID: -8761941573820771172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belmont anim_36
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 59
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ad679c728ad7950800000000000000
+      internalID: 6448495130301618845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a20aa55291346830800000000000000
+      internalID: 4063427268367221412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whip 1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7662398f4f3b0db0800000000000000
+      internalID: -4824692964960606598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whip 3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 44
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d592851118274f600800000000000000
+      internalID: 501151357212305757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whip 4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2
+        width: 44
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcadd4c051059770800000000000000
+      internalID: 8616794908455185588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whip 5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1663ac3266c3fdbf0800000000000000
+      internalID: -297452640998377887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch whip
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdad2fed9fe1c5e0800000000000000
+      internalID: -1890966906917245495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch whip 2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 10
+        width: 32
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be948ca45cfdf620800000000000000
+      internalID: 2809679183150882488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch whip 3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 9
+        width: 44
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fdc9a2dfcfe3f90800000000000000
+      internalID: -6971857008851099868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch whip 4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 10
+        width: 44
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b964adbe752723e10800000000000000
+      internalID: 2175927291918042779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch whip 5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 10
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122d37b0be09732f0800000000000000
+      internalID: -993165853628050911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs whip
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75da47295e906a5a0800000000000000
+      internalID: -6510505329708192425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs whip 2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab763a96e2b1c4780800000000000000
+      internalID: -8697546894204508230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs whip 3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2
+        width: 44
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dc333ea9b521cd0800000000000000
+      internalID: -2588906114989699737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs whip 4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2
+        width: 45
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf449312c84a9e90800000000000000
+      internalID: -7018217070914154577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs down whip
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b34b54a6ef147d00800000000000000
+      internalID: 969434895251882930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs down whip 2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455ea22aec608f600800000000000000
+      internalID: 502158843005560148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs down whip 3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2
+        width: 43
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1da1f0d4166cb20800000000000000
+      internalID: 3154315572613403103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs down whip 4
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d044bd8e098425100800000000000000
+      internalID: 95218329347376141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
