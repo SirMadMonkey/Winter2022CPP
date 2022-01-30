@@ -16,7 +16,7 @@ TextureImporter:
     second: walk 4
   - first:
       213: 890709380571916279
-    second: crouch
+    second: crouch_jump
   - first:
       213: 440326879733235858
     second: stairs up
@@ -352,7 +352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crouch
+      name: crouch_jump
       rect:
         serializedVersion: 2
         x: 84
