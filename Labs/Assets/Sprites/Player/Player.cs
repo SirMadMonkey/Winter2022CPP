@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
+        //jump animation
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = Vector2.zero;
@@ -95,21 +96,32 @@ public class Player : MonoBehaviour
             Debug.Log("CTRL was released");
         }
 
-
-        /*if (Input.GetButtonDown("Jump") && Input.GetButtonDown("Fire2"))
+        //Crouch attack
+        if (Input.GetButtonDown("Fire1") && Input.GetButtonDown("Fire3"))
         {
-            anim.SetFloat("xVel", Mathf.Abs(hInput));
-            anim.SetBool("isGrounded", false);
+            //anim.SetTrigger("crouch_Att");
+            anim.SetBool("Crouch", true);
             anim.SetBool("Att", true);
-        }*/
+        }
 
+        //Crouch anim
+        if (Input.GetButtonDown("Fire3"))
+        {
+            anim.SetBool("Crouch", true);
+            Debug.Log("SHIFT was pressed");
+        }
 
-
+        if (Input.GetButtonUp("Fire3"))
+        {
+            anim.SetBool("Crouch", false);
+            Debug.Log("Shift was released");
+        }
 
         anim.SetFloat("xVel", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);;
-     
 
+        if (hInput < 0 && sr.flipX || hInput > 0 && !sr.flipX)
+            sr.flipX = !sr.flipX;
 
         
     }

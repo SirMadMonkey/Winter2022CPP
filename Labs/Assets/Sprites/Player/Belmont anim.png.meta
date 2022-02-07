@@ -43,13 +43,13 @@ TextureImporter:
     second: Back
   - first:
       213: 9149023739663801586
-    second: Belmont anim_13
+    second: Fire
   - first:
       213: 8264443464801770761
-    second: Belmont anim_14
+    second: Fire_2
   - first:
       213: 6909290971682409079
-    second: Belmont anim_15
+    second: Fire_3
   - first:
       213: 6371181658583783079
     second: Belmont anim_16
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Belmont anim_13
+      name: Fire
       rect:
         serializedVersion: 2
         x: 1
@@ -562,7 +562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Belmont anim_14
+      name: Fire_2
       rect:
         serializedVersion: 2
         x: 26
@@ -583,7 +583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Belmont anim_15
+      name: Fire_3
       rect:
         serializedVersion: 2
         x: 45
