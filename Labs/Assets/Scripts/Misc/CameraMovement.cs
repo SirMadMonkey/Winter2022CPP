@@ -5,8 +5,8 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public Transform player;
-    public float minXClamp = -2.13f;
-    public float maxXClamp = 12.93f;
+    public float minXClamp = -2.16f;
+    public float maxXClamp = 15.06f;
     
     // Update is called once per frame
     void LateUpdate()

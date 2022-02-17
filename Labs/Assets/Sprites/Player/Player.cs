@@ -9,17 +9,59 @@ public class Player : MonoBehaviour
     public bool isGrounded;
     public bool Att;
     
+    int _score = 0;
+    int _lives = 0;
+    public int maxLives = 3;
+
+    public int score
+    {
+        get { return _score; }
+        set
+        {
+            _score = value;
+            Debug.Log("Score Set To: " + score.ToString());
+        }
+    }
+
+    public int lives
+    {
+        get { return _lives; }
+        set
+        {
+            //if (_lives > value)
+            //respawn code
+
+            _lives = value;
+            if (_lives > maxLives)
+                _lives = maxLives;
+
+            //if (_lives < 0)
+            //gameover
+
+            Debug.Log("Lives Set To: " + lives.ToString());
+        }
+    }
     
     Rigidbody2D rb;
     SpriteRenderer sr;
     Animator anim;
     
-    //[SerializeField]
+    [SerializeField]
     public float speed;
+    
+    [SerializeField]
     public int jumpforce;
+    
+    [SerializeField]
     public float groundCheckRadius;
+    
+    [SerializeField]
     public LayerMask isGroundLayer;
+    
+    [SerializeField]
     public Transform groundCheck;
+
+    bool coroutineRunning = false;
 
 
     // Start is called before the first frame update
@@ -71,7 +113,7 @@ public class Player : MonoBehaviour
         float hInput = Input.GetAxisRaw("Horizontal");
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
-
+        AnimatorClipInfo[] curState = anim.GetCurrentAnimatorClipInfo(0); 
         //jump animation
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
@@ -86,36 +128,30 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetBool("Att", true);
-            Debug.Log("CTRL was pressed");
+            /*Debug.Log("CTRL was pressed");*/
 
         }
 
         if (Input.GetButtonUp("Fire1"))
         {
             anim.SetBool("Att", false);
-            Debug.Log("CTRL was released");
+           /* Debug.Log("CTRL was released");*/
         }
 
-        //Crouch attack
-        if (Input.GetButtonDown("Fire1") && Input.GetButtonDown("Fire3"))
-        {
-            //anim.SetTrigger("crouch_Att");
-            anim.SetBool("Crouch", true);
-            anim.SetBool("Att", true);
-        }
+        
 
         //Crouch anim
-        if (Input.GetButtonDown("Fire3"))
-        {
-            anim.SetBool("Crouch", true);
-            Debug.Log("SHIFT was pressed");
-        }
+        //if (Input.GetButtonDown("Fire3"))
+        //{
+        //    anim.SetBool("Crouch", true);
+        //    Debug.Log("SHIFT was pressed");
+        //}
 
-        if (Input.GetButtonUp("Fire3"))
-        {
-            anim.SetBool("Crouch", false);
-            Debug.Log("Shift was released");
-        }
+        //if (Input.GetButtonUp("Fire3"))
+        //{
+        //    anim.SetBool("Crouch", false);
+        //    Debug.Log("Shift was released");
+        //}
 
         anim.SetFloat("xVel", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);;
@@ -123,6 +159,69 @@ public class Player : MonoBehaviour
         if (hInput < 0 && sr.flipX || hInput > 0 && !sr.flipX)
             sr.flipX = !sr.flipX;
 
-        
+
+        //Crouch attack
+        if (Input.GetButton("Fire3"))
+        {
+
+            if (Input.GetButtonDown("Fire1"))
+            {
+                anim.SetBool("crouchAtt", true);
+                //anim.SetBool("Att", true);
+            }
+
+            if (curState[0].clip.name == "Crouch")
+                return;
+
+            anim.SetBool("Crouch", true);
+
+        }
+        else
+        {
+            anim.SetBool("Crouch", false);
+        }
+
+        if (Input.GetButton("Fire3"))
+        {
+
+            if (Input.GetButtonUp("Fire1"))
+            {
+                anim.SetBool("crouchAtt", false);
+                //anim.SetBool("Att", true);
+            }
+
+            if (curState[0].clip.name == "Crouch")
+                return;
+
+            anim.SetBool("Crouch", true);
+
+        }
+        else
+        {
+            anim.SetBool("Crouch", false);
+        }
+    }
+
+    public void StartJumpForceChange()
+    {
+        if (!coroutineRunning)
+            StartCoroutine("JumpForceChange");
+        else
+        {
+            StopCoroutine("JumpForceChange");
+            jumpforce /= 2;
+            StartCoroutine("JumpForceChange");
+        }
+    }
+
+    IEnumerator JumpForceChange()
+    {
+        coroutineRunning = true;
+        jumpforce *= 2;
+
+        yield return new WaitForSeconds(5.0f);
+
+        jumpforce /= 2;
+        coroutineRunning = false;
     }
 }
