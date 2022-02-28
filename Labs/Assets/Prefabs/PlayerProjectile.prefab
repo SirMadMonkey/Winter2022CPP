@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4409518452168882041}
   m_Layer: 0
   m_Name: PlayerProjectile
-  m_TagString: pickUp
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,3 +146,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   lifetime: 0
+  damageValue: 0

@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public float speed;
     public float lifetime;
+    public int damageValue;
 
     // Start is called before the first frame update
     void Start()
@@ -13,16 +14,46 @@ public class Projectile : MonoBehaviour
         if (lifetime <= 0)
             lifetime = 2.0f;
 
+        if (damageValue <= 0)
+            damageValue = 2;
+
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
         Destroy(gameObject, lifetime);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "pickUp")
+       
+        if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(gameObject);
-            Debug.Log(collision.gameObject);
+            if (gameObject.tag == "PlayerProjectile")
+            {
+                Enemy e = collision.gameObject.GetComponent<Enemy>();
+
+                if (e)
+                    e.TakeDamage(damageValue);
+
+                Destroy(gameObject);
+            }
+        }
+
+
+        if (collision.gameObject.tag == "Player")
+        {
+            if (gameObject.tag == "enemyProjectile")
+            {
+
+                Player e = collision.gameObject.GetComponent<Player>();
+
+                /*if (e)
+                    e.TakeDamage(damageValue);*/
+
+                Destroy(gameObject);
+            }
+           /* else
+            {
+                Physics.IgnoreCollision();
+            }*/
         }
     }
 }

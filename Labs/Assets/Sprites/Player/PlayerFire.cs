@@ -36,7 +36,7 @@ public class PlayerFire : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
             anim.SetTrigger("fire");
-            Debug.Log("E pressed");
+            //Debug.Log("E pressed");
         }
     }
 
