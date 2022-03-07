@@ -6,12 +6,12 @@ public class EnemyTurret : Enemy
 {
     [SerializeField] float projectileForce;
     [SerializeField] float projectileFireRate;
-
+    [SerializeField] float turretFireDistance;
+    
     float timeSinceLastFire;
 
     public Transform projectileSpawnPointRight;
     public Transform projectileSpawnPointLeft;
-    public Transform playerCharacter;
 
     public Projectile projectilePrefab;
 
@@ -25,6 +25,9 @@ public class EnemyTurret : Enemy
 
         if (projectileFireRate <= 0)
             projectileFireRate = 2.0f;
+
+        if (turretFireDistance <= 0)
+            turretFireDistance = 5.0f;
 
         if (!projectilePrefab)
         {
@@ -52,22 +55,30 @@ public class EnemyTurret : Enemy
     // Update is called once per frame
     void Update()
     {
+        
         if (!anim.GetBool("Fire"))
         {
-            this.sr.flipX = playerCharacter.transform.position.x > this.transform.position.x;
-
-            if (Time.time >= timeSinceLastFire + projectileFireRate)
+            if (GameManager.instance.playerInstance)
             {
-                anim.SetBool("Fire", true);
+                this.sr.flipX = GameManager.instance.playerInstance.transform.position.x > this.transform.position.x;
             }
-            
-        }
-        
+
+            float distance = Vector2.Distance(transform.position, GameManager.instance.playerInstance.transform.position);
+
+            if (distance <= turretFireDistance)
+            {
+                if (Time.time >= timeSinceLastFire + projectileFireRate)
+                {
+                    anim.SetBool("Fire", true);
+                }
+            }
+        }       
     }
 
     public void Fire()
     {
         timeSinceLastFire = Time.time;
+        
         if(!sr.flipX)
         {  
             Projectile temp = Instantiate(projectilePrefab, projectileSpawnPointLeft.position, projectileSpawnPointRight.rotation);
@@ -77,13 +88,23 @@ public class EnemyTurret : Enemy
         { 
              Projectile temp = Instantiate(projectilePrefab, projectileSpawnPointRight.position, projectileSpawnPointLeft.rotation);
             temp.speed = projectileForce;
-        }
-       
-         
+        }  
     }
 
     public void ReturnToIdle()
     {
         anim.SetBool("Fire", false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
+
+                    if (rb)
+                        rb.velocity = Vector2.zero;
+        }
+            
     }
 }

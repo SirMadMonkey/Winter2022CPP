@@ -9,38 +9,7 @@ public class Player : MonoBehaviour
     public bool isGrounded;
     public bool Att;
     
-    int _score = 0;
-    int _lives = 0;
-    public int maxLives = 3;
-
-    public int score
-    {
-        get { return _score; }
-        set
-        {
-            _score = value;
-            Debug.Log("Score Set To: " + score.ToString());
-        }
-    }
-
-    public int lives
-    {
-        get { return _lives; }
-        set
-        {
-            //if (_lives > value)
-            //respawn code
-
-            _lives = value;
-            if (_lives > maxLives)
-                _lives = maxLives;
-
-            //if (_lives < 0)
-            //gameover
-
-            Debug.Log("Lives Set To: " + lives.ToString());
-        }
-    }
+    
     
     Rigidbody2D rb;
     SpriteRenderer sr;
@@ -139,20 +108,6 @@ public class Player : MonoBehaviour
         }
 
         
-
-        //Crouch anim
-        //if (Input.GetButtonDown("Fire3"))
-        //{
-        //    anim.SetBool("Crouch", true);
-        //    Debug.Log("SHIFT was pressed");
-        //}
-
-        //if (Input.GetButtonUp("Fire3"))
-        //{
-        //    anim.SetBool("Crouch", false);
-        //    Debug.Log("Shift was released");
-        //}
-
         anim.SetFloat("xVel", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);;
 

@@ -33,27 +33,20 @@ public class Projectile : MonoBehaviour
                 if (e)
                     e.TakeDamage(damageValue);
 
+                Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
+
+                if (rb)
+                    rb.velocity = Vector2.zero;
+
                 Destroy(gameObject);
             }
         }
 
 
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && gameObject.tag == "enemyProjectile")
         {
-            if (gameObject.tag == "enemyProjectile")
-            {
-
-                Player e = collision.gameObject.GetComponent<Player>();
-
-                /*if (e)
-                    e.TakeDamage(damageValue);*/
-
-                Destroy(gameObject);
-            }
-           /* else
-            {
-                Physics.IgnoreCollision();
-            }*/
+            GameManager.instance.lives--;
+            Destroy(gameObject);
         }
     }
 }

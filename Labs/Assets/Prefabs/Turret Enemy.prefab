@@ -183,11 +183,10 @@ MonoBehaviour:
   maxHealth: 0
   projectileForce: 0
   projectileFireRate: 0
+  turretFireDistance: 0
   projectileSpawnPointRight: {fileID: 3301075685741695878}
   projectileSpawnPointLeft: {fileID: 3301075686037452605}
-  playerCharacter: {fileID: 0}
   projectilePrefab: {fileID: 6844068854838538112, guid: 8b42e557c69906942b6206e7285e5fed, type: 3}
-  facingRight: 0
 --- !u!50 &3301075686051586520
 Rigidbody2D:
   serializedVersion: 4
@@ -259,7 +258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3301075686580125315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.47, y: 0.86, z: -21.747393}
+  m_LocalPosition: {x: 15.47, y: 0.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3301075686051586533}
