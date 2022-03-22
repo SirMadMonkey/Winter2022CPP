@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class EnemyTurret : Enemy
 {
@@ -14,11 +15,16 @@ public class EnemyTurret : Enemy
     public Transform projectileSpawnPointLeft;
 
     public Projectile projectilePrefab;
+    public AudioMixerGroup soundFXGroup;
+    PlayerSounds ps;
+    public AudioClip fireSound;
 
 
     // Start is called before the first frame update
     public override void Start()
     {
+        ps = GetComponent<PlayerSounds>();
+        
         base.Start();
         if (projectileForce <= 0)
             projectileForce = 7.0f;
@@ -78,8 +84,9 @@ public class EnemyTurret : Enemy
     public void Fire()
     {
         timeSinceLastFire = Time.time;
-        
-        if(!sr.flipX)
+        ps.Play(fireSound, soundFXGroup);
+
+        if (!sr.flipX)
         {  
             Projectile temp = Instantiate(projectilePrefab, projectileSpawnPointLeft.position, projectileSpawnPointRight.rotation);
             temp.speed = -projectileForce;
@@ -88,7 +95,8 @@ public class EnemyTurret : Enemy
         { 
              Projectile temp = Instantiate(projectilePrefab, projectileSpawnPointRight.position, projectileSpawnPointLeft.rotation);
             temp.speed = projectileForce;
-        }  
+        }
+        
     }
 
     public void ReturnToIdle()

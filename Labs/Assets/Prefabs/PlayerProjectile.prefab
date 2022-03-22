@@ -147,3 +147,4 @@ MonoBehaviour:
   speed: 0
   lifetime: 0
   damageValue: 0
+  fireSound: {fileID: 0}

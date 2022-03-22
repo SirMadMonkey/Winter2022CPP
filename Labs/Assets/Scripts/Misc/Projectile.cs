@@ -1,22 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Projectile : MonoBehaviour
 {
     public float speed;
     public float lifetime;
     public int damageValue;
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        
         if (lifetime <= 0)
             lifetime = 2.0f;
 
         if (damageValue <= 0)
             damageValue = 2;
-
+        
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
         Destroy(gameObject, lifetime);
     }

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Animator))]
 public class Player : MonoBehaviour
@@ -8,13 +10,16 @@ public class Player : MonoBehaviour
     public bool verbose = false;
     public bool isGrounded;
     public bool Att;
-    
-    
-    
+    public AudioMixerGroup soundFXGroup;
+
+    //public AudioClip playerFireSound;
+    //public AudioMixerGroup soundFXGroup;
+
     Rigidbody2D rb;
     SpriteRenderer sr;
     Animator anim;
-    
+    PlayerSounds ps;
+
     [SerializeField]
     public float speed;
     
@@ -32,6 +37,8 @@ public class Player : MonoBehaviour
 
     bool coroutineRunning = false;
 
+    public AudioClip playerHit;
+
 
     // Start is called before the first frame update
     void Start()
@@ -39,8 +46,8 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        ps = GetComponent<PlayerSounds>();
 
-       
 
         if (speed <= 0)
         {
@@ -186,9 +193,24 @@ public class Player : MonoBehaviour
         {
             col.gameObject.GetComponentInParent<EnemyWalker>().Death();
             rb.velocity = Vector2.zero;
-            rb.AddForce(Vector2.up * 1);
+            rb.AddForce(Vector2.up * 100);
             Destroy(col.gameObject);
-
         }
+
+        if(col.gameObject.tag == "WIN")
+        {
+            SceneManager.LoadScene("Win");
+        }
+
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            GameManager.instance.lives--;
+        }
+
+       
     }
 }
